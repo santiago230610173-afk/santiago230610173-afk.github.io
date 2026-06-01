@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(fondo.jpg);
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+
+header {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+   background-image: url(textura.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    text-align: center;
+    border-bottom: 4px solid #d4af37;
+}
+
+nav {
+    background-image: url(textura.jpg);
+    background-size: cover;
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(109, 94, 9);
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+
+.cuerpoo {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+}
+
+section {
+    background-image: url(seee.jpg);
+    background-size: auto;
+    flex: 70%; 
+
+    background-color: rgba(0,0,0,0.8); 
+    padding: 25px;
+    border: 1px solid #444;
+}
+
+aside {
+    background-image: url(pesodios.jpg);
+    background-size: cover;
+    flex: 30%;
+    background-color: #222;
+    padding: 20px;
+    border-left: 5px solid gold;
+}
+.e {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+footer {
+    background-image: url(eee.jpg);
+    background-size: cover;
+
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* Estilos de Tabla y Texto */
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(34, 34, 34, 0.9);
+}
+
+th, td {
+    border: 1px solid gold;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #d4af37;
+    color: #000;
+}
+
+h1, h2, h3 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #83e2ff;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+ul {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
